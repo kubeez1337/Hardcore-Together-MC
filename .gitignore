@@ -1,0 +1,20 @@
+# Build
+/target/
+/build/
+
+# IDE
+.vscode
+.vscode/
+.idea/
+.idea
+*.iml
+
+# Generated test files
+/test-server/
+
+# Logs
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db

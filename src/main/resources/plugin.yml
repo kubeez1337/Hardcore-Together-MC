@@ -1,0 +1,26 @@
+name: HardcoreTogether
+version: '${project.version}'
+main: com.hctogether.HardcoreTogetherPlugin
+api-version: '1.21'
+description: Shared Hardcore Speedrun – all players share health and hunger. One mistake can end it all.
+author: HardcoreTogether
+
+commands:
+  hcrestart:
+    description: Resets the world and restarts the server after a Game Over.
+    usage: /hcrestart
+  hcvote:
+    description: Vote for who caused the failed hardcore run (used during voting phase).
+    usage: /hcvote <player>
+  failedruns:
+    description: Displays count of failed runs and failures caused for all connected players.
+    usage: /failedruns
+    aliases: [hcfailures, failures]
+  blackpoints:
+    description: Manage player black points.
+    usage: /blackpoints <add/remove/set/list> [player] [amount]
+    aliases: [bp, hcpoints]
+  hardcoretogether:
+    description: Displays information and help for Hardcore Together.
+    usage: /hardcoretogether
+    aliases: [hct]
