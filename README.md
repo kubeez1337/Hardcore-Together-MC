@@ -11,18 +11,17 @@
 * **Lifetime Failure Statistics**: Persistent tracking of total failed runs and individual failure counts.
 * **Message of the Day (MOTD)**: A welcoming info screen shown to players when they join, detailing command guides and stopwatch status.
 * **Operator Force Reset**: A command to let server operators forcefully reset the world and restart the game at any point.
+  
 ## Commands & Permissions
-
 | Command | Aliases | Description | Default Permission |
 | :--- | :--- | :--- | :--- |
-| `/hcenhanced` | `/hce` | Displays plugin details, stopwatch timer status, and commands help menu. | All Players |
+| `/hardcoretogether` | `/hct` | Displays plugin details, stopwatch timer status, and commands help menu. | All Players |
 | `/failedruns` | `/failures`, `/hcfailures` | Displays total failed runs and failures caused per player. | All Players |
 | `/blackpoints <list>` | `/bp`, `/hcpoints` | Displays the current all-time black points leaderboard. | All Players |
 | `/blackpoints <add/remove/set>` | `/bp`, `/hcpoints` | Modifies player black points on the leaderboard. | Server Operators |
 | `/hcrestart` | - | Initiates the world reset/restart sequence. Can only be clicked by players after Game Over. | All Players (Post-Game only) |
 | `/hcrestart force` | - | Forcefully wipes worlds and restarts the server immediately (even if a run is active). | Server Operators |
 | `/hcvote <player>` | - | Casts a vote for who caused the failure during the post-game voting phase. | All Players (Post-Game only) |
-
 
 <img width="1076" height="597" alt="image" src="https://github.com/user-attachments/assets/6bf327ad-42b2-48ef-bbe1-f9a822909809" />
 
